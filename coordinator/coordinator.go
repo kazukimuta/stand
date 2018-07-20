@@ -6,10 +6,10 @@ import (
 
 	"github.com/uber-go/zap"
 
-	"github.com/shinofara/stand/archiver"
-	"github.com/shinofara/stand/backup"
-	"github.com/shinofara/stand/config"
-	"github.com/shinofara/stand/find"
+	"github.com/kazukimuta/stand/archiver"
+	"github.com/kazukimuta/stand/backup"
+	"github.com/kazukimuta/stand/config"
+	"github.com/kazukimuta/stand/find"
 )
 
 type Coordinator struct {

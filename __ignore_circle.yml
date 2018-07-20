@@ -20,9 +20,9 @@ dependencies:
       fi
     - go version
   override:
-    - mkdir -p /home/ubuntu/.go_workspace/src/github.com/shinofara
-    - ln -sfn $HOME/$CIRCLE_PROJECT_REPONAME /home/ubuntu/.go_workspace/src/github.com/shinofara/stand
-    - cd /home/ubuntu/.go_workspace/src/github.com/shinofara/stand && glide install
+    - mkdir -p /home/ubuntu/.go_workspace/src/github.com/kazukimuta
+    - ln -sfn $HOME/$CIRCLE_PROJECT_REPONAME /home/ubuntu/.go_workspace/src/github.com/kazukimuta/stand
+    - cd /home/ubuntu/.go_workspace/src/github.com/kazukimuta/stand && glide install
 
 test:
   override:

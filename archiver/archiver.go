@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/shinofara/stand/archiver/compressor"
-	"github.com/shinofara/stand/config"
+	"github.com/kazukimuta/stand/archiver/compressor"
+	"github.com/kazukimuta/stand/config"
 
 	"context"
 	"github.com/uber-go/zap"

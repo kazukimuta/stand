@@ -7,8 +7,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/shinofara/stand/config"
-	"github.com/shinofara/stand/find"
+	"github.com/kazukimuta/stand/config"
+	"github.com/kazukimuta/stand/find"
 )
 
 type TarCompressor struct {

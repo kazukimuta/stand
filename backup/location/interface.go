@@ -1,7 +1,7 @@
 package location
 
 import (
-	"github.com/shinofara/stand/config"
+	"github.com/kazukimuta/stand/config"
 )
 
 type Location interface {

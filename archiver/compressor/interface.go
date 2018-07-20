@@ -2,7 +2,7 @@ package compressor
 
 import (
 	"context"
-	"github.com/shinofara/stand/config"
+	"github.com/kazukimuta/stand/config"
 	"io"
 )
 

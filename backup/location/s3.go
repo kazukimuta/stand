@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"sort"
 
-	"github.com/shinofara/stand/config"
+	"github.com/kazukimuta/stand/config"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"

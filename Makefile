@@ -1,6 +1,6 @@
 NAME=stand
-REPO=github.com/shinofara/${NAME}
-GO_VERSION=1.7
+REPO=github.com/kazukimuta/${NAME}
+GO_VERSION=1.9
 
 default: clean glide-install
 
@@ -26,11 +26,11 @@ lint:
 
 circleci-test-all: circleci-test circleci-vet
 circleci-test:
-	cd /home/ubuntu/.go_workspace/src/github.com/shinofara/stand && \
+	cd /home/ubuntu/.go_workspace/src/github.com/kazukimuta/stand && \
 	go test -race -v $$(glide novendor) | go-junit-report -set-exit-code=true > $(CIRCLE_TEST_REPORTS)/golang/junit.xml
 
 circleci-vet:
-	cd /home/ubuntu/.go_workspace/src/github.com/shinofara/stand && \
+	cd /home/ubuntu/.go_workspace/src/github.com/kazukimuta/stand && \
 	go vet $$(glide novendor)
 
 glide-install:

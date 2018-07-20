@@ -4,8 +4,8 @@ import (
 	"context"
 	"os"
 
-	"github.com/shinofara/stand/backup/location"
-	"github.com/shinofara/stand/config"
+	"github.com/kazukimuta/stand/backup/location"
+	"github.com/kazukimuta/stand/config"
 )
 
 //Backup manages all of the settings for backup

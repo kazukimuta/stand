@@ -1,4 +1,4 @@
-package: github.com/shinofara/stand
+package: github.com/kazukimuta/stand
 import:
 - package: github.com/go-ini/ini
   version: 6e4869b434bd001f6983749881c7ead3545887d8

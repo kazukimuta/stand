@@ -2,7 +2,7 @@ package location
 
 import (
 	"testing"
-	"github.com/shinofara/stand/config"
+	"github.com/kazukimuta/stand/config"
 	"path/filepath"
 )
 

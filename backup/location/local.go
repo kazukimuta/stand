@@ -1,8 +1,8 @@
 package location
 
 import (
-	"github.com/shinofara/stand/config"
-	"github.com/shinofara/stand/find"
+	"github.com/kazukimuta/stand/config"
+	"github.com/kazukimuta/stand/find"
 	"io"
 	"os"
 	"path/filepath"

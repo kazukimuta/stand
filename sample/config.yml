@@ -1,0 +1,5 @@
+- type: file
+  path: "/Users/mutakazuki/Desktop/temp/test.log"
+  storages:
+    - path: "/Users/mutakazuki/Desktop/bu-temp"
+      life_cycle: 1

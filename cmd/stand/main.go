@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 
-	"github.com/shinofara/stand/config"
-	"github.com/shinofara/stand/coordinator"
+	"github.com/kazukimuta/stand/config"
+	"github.com/kazukimuta/stand/coordinator"
 
 	"flag"
 
